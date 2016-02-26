@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="c2c1473e-3225-48e3-9c0b-5901f0655095" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>Build</name>
+  <description />
+  <settings>
+    <parameters />
+    <build-runners>
+      <runner id="RUNNER_4" name="" type="JPS">
+        <parameters>
+          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;&quot; should-load-iml=&quot;true&quot; /&gt;" />
+          <param name="jvmArgs" value="-Xmx256m" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="JajukTeam_HttpsGithubComAicidnnJajukTeamGithubIoGitRefsHeadsMaster" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
